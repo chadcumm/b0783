@@ -3,9 +3,9 @@
 ## Current Deployment
 
 **Environment:** B0783
-**Version:** v0.0.14
+**Version:** v0.0.15
 **Branch:** unknown
-**Last Deployed:** 02/24/2026, 10:56:47
+**Last Deployed:** 02/24/2026, 11:00:24
 
 ## About
 
@@ -13,6 +13,7 @@ This directory contains the deployed build artifacts for the cov-orders-vulcan-t
 
 ## Deployment History
 
+- **v0.0.15** | Branch: `unknown` | Deployed: 02/24/2026, 11:00:24
 - **v0.0.14** | Branch: `unknown` | Deployed: 02/24/2026, 10:56:47
 - **v0.0.13** | Branch: `unknown` | Deployed: 02/21/2026, 07:39:59
 - **v0.0.12** | Branch: `unknown` | Deployed: 02/20/2026, 13:28:55
