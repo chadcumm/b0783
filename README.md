@@ -3,9 +3,9 @@
 ## Current Deployment
 
 **Environment:** B0783
-**Version:** v0.0.4
+**Version:** v0.0.5
 **Branch:** main
-**Last Deployed:** 03/13/2026, 22:44:41
+**Last Deployed:** 03/13/2026, 23:51:52
 
 ## About
 
@@ -13,6 +13,7 @@ This directory contains the deployed build artifacts for the cov-fusion-componen
 
 ## Deployment History
 
+- **v0.0.5** | Branch: `main` | Deployed: 03/13/2026, 23:51:52
 - **v0.0.4** | Branch: `main` | Deployed: 03/13/2026, 22:44:41
 - **v0.0.3** | Branch: `main` | Deployed: 03/13/2026, 22:18:04
 - **v0.0.2** | Branch: `main` | Deployed: 03/13/2026, 21:38:06
@@ -22,7 +23,6 @@ This directory contains the deployed build artifacts for the cov-fusion-componen
 - **v0.0.45** | Branch: `main` | Deployed: 03/13/2026, 18:56:33
 - **v0.0.44** | Branch: `main` | Deployed: 03/13/2026, 18:45:30
 - **v0.0.43** | Branch: `main` | Deployed: 03/13/2026, 18:40:46
-- **v0.0.42** | Branch: `main` | Deployed: 03/13/2026, 18:34:00
 
 ---
 
