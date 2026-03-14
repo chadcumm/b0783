@@ -1,0 +1,199 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MPages Fusion Component Test</title><style>:root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-2: #334155;
+      --border: #475569;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dim: #0284c7;
+      --green: #4ade80;
+      --red: #f87171;
+      --orange: #fb923c;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .app-shell {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+    }
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 1rem 0;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+    .sidebar h1 {
+      font-size: 1.1rem;
+      color: var(--accent);
+      padding: 0 1rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0.5rem;
+    }
+    .sidebar h1 small {
+      display: block;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-weight: normal;
+      margin-top: 0.25rem;
+    }
+    .nav-section {
+      padding: 0.5rem 0;
+    }
+    .nav-section-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0.25rem 1rem;
+      font-weight: 600;
+    }
+    .nav-item {
+      display: block;
+      padding: 0.35rem 1rem 0.35rem 1.5rem;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      transition: all 0.15s;
+    }
+    .nav-item:hover {
+      background: var(--surface-2);
+      color: var(--accent);
+    }
+    .nav-item.active {
+      border-left-color: var(--accent);
+      background: rgba(56, 189, 248, 0.08);
+      color: var(--accent);
+    }
+    .main-content {
+      padding: 2rem;
+      overflow-y: auto;
+    }
+    .main-content h2 {
+      color: var(--green);
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      padding-left: 0.75rem;
+      border-left: 4px solid var(--green);
+    }
+    .main-content .description {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .demo-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+    .demo-section-title {
+      background: var(--surface-2);
+      padding: 0.6rem 1rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--orange);
+      border-bottom: 1px solid var(--border);
+    }
+    .demo-render {
+      padding: 1.25rem;
+      background: #fff;
+      color: #333;
+      min-height: 60px;
+    }
+    .demo-code {
+      border-top: 1px solid var(--border);
+      padding: 1rem;
+      background: #0d1117;
+    }
+    .demo-code pre {
+      font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--text);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+    .badge-atomic { background: #065f46; color: #6ee7b7; }
+    .badge-composite { background: #713f12; color: #fde68a; }
+    .props-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      margin: 1rem 0;
+    }
+    .props-table th {
+      background: var(--surface-2);
+      color: var(--accent);
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border);
+    }
+    .props-table td {
+      padding: 0.4rem 0.75rem;
+      border: 1px solid var(--border);
+    }
+    .props-table code {
+      background: var(--surface-2);
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      color: var(--accent);
+      font-size: 0.8rem;
+    }
+    .version-badge {
+      position: fixed;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      z-index: 9999;
+    }
+    .status-bar {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 0.3rem;
+    }
+    .status-dot.green { background: var(--green); }
+    .status-dot.orange { background: var(--orange); }
+    .status-dot.red { background: var(--red); }
+    @media (max-width: 768px) {
+      .app-shell { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }</style><script defer="defer" src="assembly.js"></script></head><body><div class="app-shell"><nav class="sidebar" id="sidebar"><h1>Fusion Component Test <small>MPages Fusion v2 Showcase</small></h1></nav><main class="main-content" id="main-content"><div id="root"></div></main></div><div class="version-badge" id="version-badge"></div></body></html>

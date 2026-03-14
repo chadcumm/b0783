@@ -1,18 +1,19 @@
-# cov-orders-vulcan-test
+# cov-fusion-component-test
 
 ## Current Deployment
 
 **Environment:** B0783
-**Version:** v0.0.48
+**Version:** v0.0.2
 **Branch:** main
-**Last Deployed:** 03/13/2026, 20:48:45
+**Last Deployed:** 03/13/2026, 21:38:06
 
 ## About
 
-This directory contains the deployed build artifacts for the cov-orders-vulcan-test MPage application.
+This directory contains the deployed build artifacts for the cov-fusion-component-test MPage application.
 
 ## Deployment History
 
+- **v0.0.2** | Branch: `main` | Deployed: 03/13/2026, 21:38:06
 - **v0.0.48** | Branch: `main` | Deployed: 03/13/2026, 20:48:45
 - **v0.0.47** | Branch: `main` | Deployed: 03/13/2026, 20:01:44
 - **v0.0.46** | Branch: `main` | Deployed: 03/13/2026, 19:49:19
@@ -22,7 +23,6 @@ This directory contains the deployed build artifacts for the cov-orders-vulcan-t
 - **v0.0.42** | Branch: `main` | Deployed: 03/13/2026, 18:34:00
 - **v0.0.41** | Branch: `main` | Deployed: 03/13/2026, 18:12:38
 - **v0.0.40** | Branch: `main` | Deployed: 03/13/2026, 18:06:07
-- **v0.0.39** | Branch: `main` | Deployed: 03/13/2026, 17:59:40
 
 ---
 
