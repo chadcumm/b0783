@@ -1,18 +1,19 @@
-# cov-fusion-component-test
+# cst-orders-test
 
 ## Current Deployment
 
 **Environment:** B0783
-**Version:** v0.0.6
+**Version:** v0.0.2
 **Branch:** main
-**Last Deployed:** 03/16/2026, 09:21:36
+**Last Deployed:** 05/07/2026, 12:13:30
 
 ## About
 
-This directory contains the deployed build artifacts for the cov-fusion-component-test MPage application.
+Deployed build artifacts for the cst-orders-test Edge WebComponent.
 
 ## Deployment History
 
+- **v0.0.2** | Branch: `main` | Deployed: 05/07/2026, 12:13:30
 - **v0.0.6** | Branch: `main` | Deployed: 03/16/2026, 09:21:36
 - **v0.0.5** | Branch: `main` | Deployed: 03/13/2026, 23:51:52
 - **v0.0.4** | Branch: `main` | Deployed: 03/13/2026, 22:44:41
@@ -22,7 +23,6 @@ This directory contains the deployed build artifacts for the cov-fusion-componen
 - **v0.0.47** | Branch: `main` | Deployed: 03/13/2026, 20:01:44
 - **v0.0.46** | Branch: `main` | Deployed: 03/13/2026, 19:49:19
 - **v0.0.45** | Branch: `main` | Deployed: 03/13/2026, 18:56:33
-- **v0.0.44** | Branch: `main` | Deployed: 03/13/2026, 18:45:30
 
 ---
 
