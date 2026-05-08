@@ -3,9 +3,9 @@
 ## Current Deployment
 
 **Environment:** B0783
-**Version:** v0.0.28
+**Version:** v0.0.29
 **Branch:** main
-**Last Deployed:** 05/08/2026, 12:51:12
+**Last Deployed:** 05/08/2026, 12:51:47
 
 ## About
 
@@ -13,6 +13,7 @@ Deployed build artifacts for the cst-orders-test Edge WebComponent.
 
 ## Deployment History
 
+- **v0.0.29** | Branch: `main` | Deployed: 05/08/2026, 12:51:47
 - **v0.0.28** | Branch: `main` | Deployed: 05/08/2026, 12:51:12
 - **v0.0.27** | Branch: `main` | Deployed: 05/08/2026, 12:49:28
 - **v0.0.26** | Branch: `main` | Deployed: 05/08/2026, 12:45:27
@@ -22,7 +23,6 @@ Deployed build artifacts for the cst-orders-test Edge WebComponent.
 - **v0.0.21** | Branch: `main` | Deployed: 05/08/2026, 12:34:54
 - **v0.0.20** | Branch: `main` | Deployed: 05/08/2026, 12:25:15
 - **v0.0.19** | Branch: `main` | Deployed: 05/08/2026, 08:57:32
-- **v0.0.18** | Branch: `main` | Deployed: 05/08/2026, 08:52:45
 
 ---
 
